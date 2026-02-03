@@ -268,7 +268,7 @@ jobs:
                               "tool": "SonarQube",
                               "severity": issue.get('severity', 'UNKNOWN'),
                               "vulnerability": issue.get('rule', 'Unknown Rule'),
-                              "file": issue.get('component', '').replace('testtraining_testtraining:', ''),
+                              "file": issue.get('component', '').replace('testtraings_testtrainings:', ''),
                               "line": issue.get('line', 0),
                               "description": issue.get('message', '')[:200]
                           })
